@@ -1,5 +1,6 @@
 <script>
   import HomeRectCard from "../components/HomeRectCard.svelte";
+  import HomeCarousel from "../components/HomeCarousel.svelte";
 </script>
 
 <div class="home-nav">
@@ -8,13 +9,25 @@
   <p>Toys</p>
   <p>Books</p>
   <p>Sports Equipment</p>
-  <!-- <HomeRectCard
+</div>
+<div class="carousel-container">
+  <HomeCarousel />
+</div>
+<div class="rect-cards">
+  <HomeRectCard
     rating={4}
     cardTitle="Svelte"
     cfScore={5}
     price={4255}
     imgSrc="src/assets/svelte.png"
-  /> -->
+  />
+  <HomeRectCard
+    rating={4}
+    cardTitle="Svelte"
+    cfScore={5}
+    price={4255}
+    imgSrc="src/assets/svelte.png"
+  />
 </div>
 
 <style>
@@ -26,5 +39,15 @@
     font-family: "Inter", sans-serif;
     font-weight: 300;
     padding: 12px 20vw;
+  }
+  .carousel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0px;
+  }
+  .rect-cards {
+    display: flex;
+    justify-content: space-evenly;
   }
 </style>
