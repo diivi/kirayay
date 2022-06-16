@@ -31,7 +31,7 @@
       {#each links as link}
         <Link
           on:click={activateLink}
-          to={"/" + link.path}
+          to={"/" + link.to}
           class="patani {activeLink === `${link.title}` ? 'active' : ''}"
           >{link.title}</Link
         >
@@ -51,7 +51,7 @@
       />
     </div>
   </nav>
-  <Route path="/" component={Home} />
+  <Route path="/home" component={Home} />
   <Route path="/shop" component={Shop} />
   <Route path="/sell" component={Sell} />
   <!-- <Route path="/donate" component={Donate} /> -->
