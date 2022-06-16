@@ -1,5 +1,8 @@
 <script>
-  import HomeRectCard from "../components/HomeRectCard.svelte";
+import CardText from "../components/CardText.svelte";
+import Card from "../components/Card.svelte";
+import HomeRectCard from "../components/HomeRectCard.svelte";
+import HomeListing from "../components/HomeListing.svelte";
 </script>
 
 <div class="home-nav">
@@ -13,9 +16,12 @@
     cardTitle="Svelte"
     cfScore={5}
     price={4255}
-    imageSrc="src/assets/svelte.png"
+    imgSrc="src/assets/svelte.png"
   />
+
+  
 </div>
+<HomeListing />
 
 <style>
   .home-nav {
