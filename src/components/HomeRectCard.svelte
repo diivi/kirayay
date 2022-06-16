@@ -35,6 +35,9 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+  .title {
+    outline: none;
+  }
   * {
     padding: 0;
     margin: 0;
