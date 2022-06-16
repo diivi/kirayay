@@ -1,4 +1,5 @@
 <script>
+  import HomeRectCard from "../components/HomeRectCard.svelte";
 </script>
 
 <div class="home-nav">
@@ -7,6 +8,13 @@
   <p>Toys</p>
   <p>Books</p>
   <p>Sports Equipment</p>
+  <!-- <HomeRectCard
+    rating={4}
+    cardTitle="Svelte"
+    cfScore={5}
+    price={4255}
+    imgSrc="src/assets/svelte.png"
+  /> -->
 </div>
 
 <style>

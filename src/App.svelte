@@ -3,7 +3,7 @@
   import Home from "./routes/Home.svelte";
   import Shop from "./routes/Shop.svelte";
   import Sell from "./routes/Sell.svelte";
-  // import Donate from "./routes/Donate.svelte";
+  import Donate from "./routes/Donate.svelte";
 
   //apply styling to active Link
   let activeLink = "Home";
@@ -57,12 +57,9 @@
   <!-- <Route path="/donate" component={Donate} /> -->
 </Router>
 
-<h1>kirayay!</h1>
-
-to do >fontsizes >cartbtn >sitelogo >activepill
-
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
   :root {
     margin: 0px;
   }
@@ -137,5 +134,6 @@ to do >fontsizes >cartbtn >sitelogo >activepill
     display: flex;
     justify-content: space-around;
     align-items: center;
+    justify-content: center;
   }
 </style>

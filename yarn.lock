@@ -206,7 +206,12 @@
   dependencies:
     "svelte2tsx" "^0.1.151"
 
-"svelte@^3.24", "svelte@^3.44.0", "svelte@>=3.19.0", "svelte@3.x":
+"svelte-stars-rating@^1.0.3":
+  "integrity" "sha512-sju/MHtylb+/EPFDJby+QHkFm69/+OkcnBj2w6gr7dLRj2vj4MUgi1hVMDnnXMHyWHKP4Sd9eUnHDhnlFFnKZQ=="
+  "resolved" "https://registry.npmjs.org/svelte-stars-rating/-/svelte-stars-rating-1.0.3.tgz"
+  "version" "1.0.3"
+
+"svelte@^3.0.0", "svelte@^3.24", "svelte@^3.44.0", "svelte@>=3.19.0", "svelte@3.x":
   "integrity" "sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ=="
   "resolved" "https://registry.npmjs.org/svelte/-/svelte-3.48.0.tgz"
   "version" "3.48.0"
