@@ -14,7 +14,11 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "@mui/icons-material": "^5.8.4",
+=======
     "svelte-carousel": "^1.0.19",
+>>>>>>> 6839a83b9f8e3a257af5226c21b2a035c98409e6
     "svelte-navigator": "^3.1.6",
     "svelte-stars-rating": "^1.0.3"
   }
