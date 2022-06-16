@@ -8,7 +8,7 @@
   //apply styling to active Link
   let activeLink = "Home";
   let links = [
-    { title: "Home", to: "home" },
+    { title: "Home", to: "" },
     { title: "Shop", to: "shop" },
     { title: "Sell", to: "sell" },
     { title: "Donate", to: "donate" },
@@ -51,10 +51,10 @@
       />
     </div>
   </nav>
-  <Route path="/home" component={Home} />
+  <Route path="/" component={Home} />
   <Route path="/shop" component={Shop} />
   <Route path="/sell" component={Sell} />
-  <!-- <Route path="/donate" component={Donate} /> -->
+  <Route path="/donate" component={Donate} />
 </Router>
 
 <style>
