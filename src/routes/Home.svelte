@@ -1,13 +1,9 @@
 <script>
-<<<<<<< HEAD
-import CardText from "../components/CardText.svelte";
-import Card from "../components/Card.svelte";
-import HomeRectCard from "../components/HomeRectCard.svelte";
-import HomeListing from "../components/HomeListing.svelte";
-=======
+  import CardText from "../components/CardText.svelte";
+  import Card from "../components/Card.svelte";
+  import HomeListing from "../components/HomeListing.svelte";
   import HomeRectCard from "../components/HomeRectCard.svelte";
   import HomeCarousel from "../components/HomeCarousel.svelte";
->>>>>>> 6839a83b9f8e3a257af5226c21b2a035c98409e6
 </script>
 
 <div class="home-nav">
@@ -35,8 +31,6 @@ import HomeListing from "../components/HomeListing.svelte";
     price={4255}
     imgSrc="src/assets/svelte.png"
   />
-
-  
 </div>
 <HomeListing />
 
