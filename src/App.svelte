@@ -65,7 +65,7 @@
 
   :root {
     margin: 0px;
-    /* padding: 0 8vw; */
+     padding: 0 0vw; 
   }
 
   :global(*) {

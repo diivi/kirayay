@@ -133,7 +133,11 @@
   :root {
     font-family: "Inter";
   }
-
+  .container{
+    flex:4;
+    position: sticky;
+    text-align: left;
+  }
   h1 {
     font-size: 20px;
     font-weight: 500;
