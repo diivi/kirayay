@@ -33,12 +33,11 @@
     imgSrc="src/assets/svelte.png"
   />
 </div>
-<Filter />
 <HomeListing />
 
 <style>
   :root {
-    padding: 0 8vw;
+    padding: 0 ;
   }
 
   .home-nav {

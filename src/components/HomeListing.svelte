@@ -20,9 +20,10 @@
 <style>
     .homelisting {
         display: flex;
-        margin-top: 20px;
+        margin-top: -40px;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-left: 0;
+        padding:0px 0vw;
+        transform: scale(0.9);
     }
 </style>

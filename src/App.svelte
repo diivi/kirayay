@@ -4,6 +4,7 @@
   import Shop from "./routes/Shop.svelte";
   import Sell from "./routes/Sell.svelte";
   import Donate from "./routes/Donate.svelte";
+  import Cart from "./routes/Cart.svelte";
 
   //apply styling to active Link
   let activeLink = "Home";
@@ -44,17 +45,19 @@
         src="https://img.icons8.com/ios-glyphs/30/undefined/like--v1.png"
         alt="wishlistbtn"
       />
-      <img
-        class="cartbtn"
-        src="https://img.icons8.com/material/24/undefined/shopping-cart--v1.png"
-        alt="cartbtn"
-      />
+      <Link to="/cart" style="margin-top:20px">
+        <img
+          src="https://img.icons8.com/material/24/undefined/shopping-cart--v1.png"
+          alt="cartbtn"
+        />
+      </Link>
     </div>
   </nav>
   <Route path="/" component={Home} />
   <Route path="/shop" component={Shop} />
   <Route path="/sell" component={Sell} />
   <Route path="/donate" component={Donate} />
+  <Route path="/cart" component={Cart} />
 </Router>
 
 <style>
@@ -64,10 +67,12 @@
     margin: 0px;
     /* padding: 0 8vw; */
   }
+
   :global(*) {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    outline: none;
   }
   nav {
     display: flex;
