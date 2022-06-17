@@ -33,7 +33,6 @@
     imgSrc="src/assets/svelte.png"
   />
 </div>
-<Filter />
 <HomeListing />
 
 <style>

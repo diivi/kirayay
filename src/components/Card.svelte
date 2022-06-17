@@ -1,6 +1,6 @@
 <script>
-    // import StarIcon from '@mui/icons-material/Star';
     import StarRating from "svelte-stars-rating";
+    
     let style = {
         styleStarWidth: 20,
         styleEmptyStarColor: "white",
@@ -10,6 +10,7 @@
     export let rating = 4;
     export let cardamount;
     export let cfScore = 9.2;
+    
 </script>
 
 <div class="card">
@@ -29,7 +30,11 @@
         </div>
         <div class="cardbodyright">
             <button class="carbtn">Rent Now</button>
+            <div class="icons">
+                
+            </div>
         </div>
+
     </div>
 </div>
 
@@ -39,12 +44,12 @@
         font-family: "Josefin Sans", sans-serif;
     }
     .card {
-        min-width: 400px;
+        min-width: 350px;
         min-height: 520px;
         border: 3px solid #e8e8e8;
         border-radius: 20px;
         width: fit-content;
-        flex:0 0 27.77%;
+        flex:0 0 20%;
         margin-top: 3%;
     }
 
