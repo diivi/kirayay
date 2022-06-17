@@ -1,5 +1,5 @@
 <script>
-  import Header from "../components/Header.svelte";
+  import Filter from "../components/Filter.svelte";
 </script>
 
-<Header headerTitle="Shop" />
+<Filter />

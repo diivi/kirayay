@@ -4,6 +4,7 @@
   import HomeListing from "../components/HomeListing.svelte";
   import HomeRectCard from "../components/HomeRectCard.svelte";
   import HomeCarousel from "../components/HomeCarousel.svelte";
+  import Filter from "../components/Filter.svelte";
 </script>
 
 <div class="home-nav">
@@ -32,9 +33,14 @@
     imgSrc="src/assets/svelte.png"
   />
 </div>
+<Filter />
 <HomeListing />
 
 <style>
+  :root {
+    padding: 0 8vw;
+  }
+
   .home-nav {
     display: flex;
     justify-content: space-between;

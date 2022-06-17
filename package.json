@@ -9,14 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@bulatdashiev/svelte-slider": "^1.0.3",
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "svelte": "^3.44.0",
+    "svelte-range-slider-pips": "^2.0.3",
     "vite": "^2.9.9"
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.4",
     "svelte-carousel": "^1.0.19",
     "svelte-navigator": "^3.1.6",
+    "svelte-slider": "^1.0.1",
     "svelte-stars-rating": "^1.0.3"
   }
 }
