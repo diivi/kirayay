@@ -12,6 +12,9 @@
 
 <div class="container">
   <div class="img">
+    <div class="cfScore">
+      <p>CFScore: 4</p>
+    </div>
     <img src={TshirtImage} alt="" />
   </div>
   <div class="sep" />
@@ -21,7 +24,11 @@
       <h3>Lorem ipsum dolor sit amet.</h3>
     </div>
     <div class="row">
-      Condition:&nbsp;&nbsp;&nbsp;&nbsp;<StarRating {rating} {style} isIndicatorActive={false} />
+      Condition:&nbsp;&nbsp;&nbsp;&nbsp;<StarRating
+        {rating}
+        {style}
+        isIndicatorActive={false}
+      />
     </div>
     <div>
       <h3 style="color:rgb(0, 0, 0, 0.42)">starting at</h3>
@@ -38,6 +45,21 @@
     border: 2px solid rgb(0, 0, 0, 0.06);
     border-radius: 32px;
     position: relative;
+  }
+
+  .cfScore {
+    background-color: #48a259;
+    color: white;
+    height: 28px;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    width: fit-content;
+    border-radius: 42px;
+    padding: 7px 10px;
+    font-size: 16px;
+    left: 30px;
+    font-family: "Josefin Sans", sans-serif;
   }
   .img {
     padding: 3%;

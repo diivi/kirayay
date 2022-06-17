@@ -1,6 +1,7 @@
 <script>
   import CartItem from "../components/CartItem.svelte";
   import CartSide from "../components/CartSide.svelte";
+  import Card from "../components/Card.svelte";
 </script>
 
 <main>
@@ -11,6 +12,22 @@
     </div>
     <div class="cart-side">
       <CartSide />
+    </div>
+  </div>
+  <br />
+  <h1 style="margin-top:20px">Suggestions</h1>
+  <div class="suggested">
+    <div>
+      <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
+    </div>
+    <div>
+      <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
+    </div>
+    <div>
+      <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
+    </div>
+    <div>
+      <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
     </div>
   </div>
 </main>
@@ -37,5 +54,13 @@
   .cart-side {
     margin-left: 20px;
     flex: 1;
+  }
+  .suggested {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -30px;
+  }
+  .suggested div {
+    transform: scale(0.8);
   }
 </style>
