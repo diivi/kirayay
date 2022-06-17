@@ -5,6 +5,7 @@
   import HomeRectCard from "../components/HomeRectCard.svelte";
   import HomeCarousel from "../components/HomeCarousel.svelte";
   import Filter from "../components/Filter.svelte";
+  import Svelteimg from "../assets/svelte.png";
 </script>
 
 <div class="home-nav">
@@ -23,14 +24,14 @@
     cardTitle="Svelte"
     cfScore={5}
     price={4255}
-    imgSrc="src/assets/svelte.png"
+    imgSrc={Svelteimg}
   />
   <HomeRectCard
     rating={4}
     cardTitle="Svelte"
     cfScore={5}
     price={4255}
-    imgSrc="src/assets/svelte.png"
+    imgSrc={Svelteimg}
   />
 </div>
 <HomeListing />
