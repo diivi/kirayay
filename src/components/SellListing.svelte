@@ -1,16 +1,17 @@
 <script>
 import Card from "./Card.svelte";
+import Jacketimg from "../assets/jacket.png";
 
 
 </script>
 
 <div class="sellListing">
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
-    <Card cardimgsrc="src/assets/jacket.png" cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
+    <Card cardimgsrc={Jacketimg} cardamount="1400" />
 </div>
 
 <style>

@@ -1,6 +1,7 @@
 <script>
   import StarRating from "svelte-stars-rating";
-
+ 
+  
   let style = {
     styleStarWidth: 20,
     styleEmptyStarColor: "white",
